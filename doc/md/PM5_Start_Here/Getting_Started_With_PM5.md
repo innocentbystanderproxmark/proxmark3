@@ -64,10 +64,8 @@ For more options, look [here](#Build-Extras)
   * `./pm3-flash-bootrom` uses the repo version.
   * `pm3-flash-bootrom` uses the system installed version.
   * Using the wrong version can throw unexpected errors for the Proxmark5 like these:
-```pm3
-[=] Permitted flash range: 0x08000000-0x08100000
-[!!]  The elf file is not applicable to the currently connected device.
-```
+  * `[=] Permitted flash range: 0x08000000-0x08100000`
+  * `[!!]  The elf file is not applicable to the currently connected device.`
 * If the above hangs or thows and error, try this: [DFU Install](#DFU-Install)
 * Unplug.
 
