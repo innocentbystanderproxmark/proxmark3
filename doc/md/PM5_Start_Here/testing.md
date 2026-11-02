@@ -97,7 +97,7 @@ script run update_fpga
 * Make sure your BWM has enough charge in the battery `hw status` 50%+ should work.
 ```
 ./pm3
-script run upgrade_fpga_and_bwm
+script run update_fpga_and_bwm
 ```
 * Run `hw status` and verify that `BWM fw version` matches this:
 ```
